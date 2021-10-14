@@ -30,7 +30,7 @@ const btn = {
 }
 
             
-            var image = await axios.get ('https://telegra.ph/file/72caf817d141c24cab7cb.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/51129002f73a547da773b.jpg', {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🍁```\n\n🍁 My name : ❰🍁🔱 T Rex BOT 🔱🍁❱\n\n🍁 Developer: HIRUWA\n\n🍁Thank You For Using ❰🍁🔱  T Rex BOT  🔱🍁❱"})
             
@@ -53,7 +53,7 @@ const btn = {
 
 
             
-            var image = await axios.get ('https://telegra.ph/file/72caf817d141c24cab7cb.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/51129002f73a547da773b.jpg', {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*❰🍁🔱  T Rex BOT  🔱🍁❱*' })
        // await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
@@ -74,7 +74,7 @@ const btn = {
         );
     }));
 
-    Trex.addrex({pattern: 'version', fromMe: true,  deleteCommand: false,  desc: Lang.BOT_V}, (async (message, match) => {    
+    Trex.addrex({pattern: 'versnanammaion', fromMe: true,  deleteCommand: false,  desc: Lang.BOT_V}, (async (message, match) => {    
     
         await message.client.sendMessage(message.jid, 
                 `*❰🍁🔱  T Rex BOT  🔱🍁❱*\n\n` + 
@@ -104,7 +104,7 @@ const btn = {
 }
 
             
-            var image = await axios.get ('https://telegra.ph/file/72caf817d141c24cab7cb.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/51129002f73a547da773b.jpg', {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🍁```\n\n🍁 My name : ❰🍁🔱 T Rex BOT 🔱🍁❱\n\n🍁 Developer: HIRUWA\n\n🍁Thank You For Using ❰🍁🔱  T Rex BOT  🔱🍁❱"})
             
@@ -127,7 +127,7 @@ const btn = {
 
 
             
-            var image = await axios.get ('https://telegra.ph/file/72caf817d141c24cab7cb.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/51129002f73a547da773b.jpg', {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*❰🍁🔱  T Rex BOT  🔱🍁❱*' })
        // await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
@@ -148,7 +148,7 @@ const btn = {
         );
     }));
 
-    Trex.addrex({pattern: 'version', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
+    Trex.addrex({pattern: 'versinanamamamaon', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
     
         await message.client.sendMessage(message.jid, 
                 `*❰🍁🔱  T Rex BOT  🔱🍁❱*\n\n` + 
