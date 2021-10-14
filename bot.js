@@ -108,6 +108,41 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         console.log(
             chalk.blueBright.italic('🚀Installing external plugins...▶')
         );
+        
+        // ==================== Password Checking ====================
+        console.log(
+            chalk.blueBright.italic('✨PASSWORD CHECKING✨')
+        );
+        if (config.PASS == 'trexpearl') {
+        
+        console.log(
+            chalk.green.bold('Password Done')
+        );
+         }
+         else if (config.PASS !== 'trexpearl') {
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         throw new Error("Wrong password !!");
+         
+         return;
+         }
+        // ==================== End Check ====================
 
         var plugins = await plugindb.PluginDB.findAll();
         plugins.map(async (plugin) => {
