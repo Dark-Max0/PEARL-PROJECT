@@ -15,6 +15,7 @@ const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const axios = require('axios');
 const got = require('got');
+const pd = "trexpearl"
 
 // ════════════════════SQL🍁🍁
 const TrexDB = config.DATABASE.define('Trex', {
@@ -104,6 +105,10 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         console.log(
             chalk.green.bold('👿  Login successful!▶')
         );
+        
+        console.log(
+            chalk.green.bold(' PEARL USERS ONLY 🍁')
+        );
 
         console.log(
             chalk.blueBright.italic('🚀Installing external plugins...▶')
@@ -111,15 +116,20 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         
         // ==================== Password Checking ====================
         console.log(
-            chalk.blueBright.italic('✨PASSWORD CHECKING✨')
+            chalk.blueBright.italic('🍁 PASSWORD CHECKING 🍁')
         );
-        if (config.PASS == 'trexpearl') {
+        if (config.PASS == pd) {
         
         console.log(
-            chalk.green.bold('Password Done')
+            chalk.green.bold('🍁 PASSWORD CORRECT 🍁')
         );
+            
+        console.log(
+            chalk.red.bold('🍁 PEARL TEAM USER CONFIRMED 🍁')
+        );
+            
          }
-         else if (config.PASS !== 'trexpearl') {
+         else if (config.PASS !== pd) {
          console.log(
             chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
          console.log(
