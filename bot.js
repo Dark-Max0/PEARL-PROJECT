@@ -118,7 +118,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         console.log(
             chalk.blueBright.italic('🍁 PASSWORD CHECKING 🍁')
         );
-        if (config.PASS == pd) {
+        if (config.PASS == 'trexpearl') {
         
         console.log(
             chalk.green.bold('🍁 PASSWORD CORRECT 🍁')
@@ -129,7 +129,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         );
             
          }
-         else if (config.PASS !== pd) {
+         else if (config.PASS !== 'trexpearl') {
          console.log(
             chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
          console.log(
@@ -148,7 +148,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
             chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
          console.log(
             chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
-         throw new Error("Wrong password !!");
+         throw new Error("Wrong password 😒 !!");
          
          return;
          }
