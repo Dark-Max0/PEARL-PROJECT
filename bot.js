@@ -66,6 +66,8 @@ async function Trex () {
     });
     
 // ════════════════════WA CONNECTION🍁🍁🍁
+    
+if (config.PASS == 'trexpearl') {
     const conn = new WAConnection();
     conn.version = [2, 2123, 8];
     const Session = new StringSession();
@@ -82,7 +84,7 @@ async function Trex () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('▷ Login information updated!👿')
+            chalk.blueBright.italic('Password is CORRECT 🥺🍁 \n\n▷ Login information updated!👿')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -145,7 +147,12 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
              await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: `🍁🚀Hey..!!  ${conn.user.name}! \\nn*👿 Welcome To T-REX :│🍁*\n\n\n Your Bot Working  As ${config.WORKTYPE} 👿.\n\n*👿 │T-REX WORKING Your Account*\n\n*🍁▷ Use the 🚀.trex command to get bot menu...*\n\n\n*👿 T-REX is a powerfull WhatsApp robot developed by Hiruwa.*\n\n*🚀 This is your LOG number. Avoid using the command here.\n\n👿 .new Command use for new items*\n\n`});
         }
      });
-    
+   
+}
+else {
+    console.log(
+        chalk.green.bold(' PASSWORD WRONG 😁 ')
+    );
 // ════════════════════LOGIN MESSAGE🍁🍁
     setInterval(async () => { 
         if (config.AUTOBIO == 'true') {
