@@ -33,6 +33,12 @@
             "required": true,
             "value": "false"
         },
+        "PASSWORD": {
+            "description": "ENTER BOT DEPLOY PASSWORD 😒",
+            "required": true
+            
+        },
+        
         "HANDLERS": {
             "description": "Do not change ❌ .  bot prefix to use commands.",
             "required": true,
