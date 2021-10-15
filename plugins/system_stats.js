@@ -24,15 +24,15 @@ if (Config.WORKTYPE == 'private') {
 const btn = {
    // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
     contentText: "▷ CLICK MENU BUTTON TO GET MENU ▷",
-    footerText: 'BY  🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰  ▷',
+    footerText: 'BY ALPHA BOT ▷',
     buttons: buttons,
     headerType: 1
 }
 
             
-            var image = await axios.get ('https://telegra.ph/file/c4f4d62acfce433ed3f5e.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/51129002f73a547da773b.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now.  🔰```\n\n 🔰 My name : ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 V 2.0.0 private ❱\n\n 🔰 Developer: Achiya\n\n 🔰Thank You For Using ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🍁```\n\n🍁 My name : ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱\n\n🍁 Developer: HIRUWA\n\n🍁Thank You For Using ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱"})
             
      //   await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
@@ -45,7 +45,7 @@ const btn = {
 const btn = {
    // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
     contentText: "▷ CLICK MENU BUTTON TO GET MENU ▷",
-    footerText: 'BY 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ▷',
+    footerText: 'BY ALPHA BOT ▷',
     buttons: buttons,
     headerType: 1
 }
@@ -53,7 +53,7 @@ const btn = {
 
 
             
-            var image = await axios.get ('https://telegra.ph/file/c4f4d62acfce433ed3f5e.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/51129002f73a547da773b.jpg', {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱*' })
        // await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
@@ -77,10 +77,10 @@ const btn = {
     Trex.addrex({pattern: 'versnanammaion', fromMe: true,  deleteCommand: false,  desc: Lang.BOT_V}, (async (message, match) => {    
     
         await message.client.sendMessage(message.jid, 
-                `*❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱*\n\n` + 
+                `*❰🍁🔱  T Rex BOT  🔱🍁❱*\n\n` + 
                 '```Installed version :```\n' +
-                ' V 2.0.0 public'+
-                `\n\n🔰 Check github for bot: https://github.com/Dark-Knight-Hiruwa/T-REX`
+                ' V 3.0.0 Public'+
+                `\n\n🍁 Check github for bot: https://github.com/Dark-Knight-Hiruwa/T-REX`
            , MessageType.text);
             
         }));
@@ -98,15 +98,15 @@ else if (Config.WORKTYPE == 'public') {
 const btn = {
    // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
     contentText: "▷ CLICK MENU BUTTON TO GET MENU ▷",
-    footerText: 'BY 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ▷',
+    footerText: 'BY ALPHA BOT ▷',
     buttons: buttons,
     headerType: 1
 }
 
             
-            var image = await axios.get ('https://telegra.ph/file/c4f4d62acfce433ed3f5e.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/51129002f73a547da773b.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🔰```\n\n🔰 My name : ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 V 2.0.0 - Public ❱\n\n🔰 Developer: HIRUWA\n\n🔰Thank You For Using ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🍁```\n\n🍁 My name : ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱\n\n🍁 Developer: HIRUWA\n\n🍁Thank You For Using ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱"})
             
        // await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
@@ -119,7 +119,7 @@ const btn = {
 const btn = {
    // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
     contentText: "▷ CLICK MENU BUTTON TO GET MENU ▷",
-    footerText: 'BY 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ▷',
+    footerText: 'BY ALPHA BOT ▷',
     buttons: buttons,
     headerType: 1
 }
@@ -127,9 +127,9 @@ const btn = {
 
 
             
-            var image = await axios.get ('https://telegra.ph/file/c4f4d62acfce433ed3f5e.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/51129002f73a547da773b.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*❰  🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱*' })
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱*' })
        // await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
      }
@@ -151,10 +151,10 @@ const btn = {
     Trex.addrex({pattern: 'versinanamamamaon', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
     
         await message.client.sendMessage(message.jid, 
-                `*❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱*\n\n` + 
+                `*❰🍁🔱  T Rex BOT  🔱🍁❱*\n\n` + 
                 '```Installed version :```\n' +
-                ' V 2.0.0 - Public'+
-                `\n\n🔰 Check github for bot:  https://github.com/Dark-Knight-Hiruwa/T-REX`
+                ' V 3.0.0 - Public'+
+                `\n\n🍁 Check github for bot:  https://github.com/Dark-Knight-Hiruwa/T-REX`
            , MessageType.text);
             
         }));
