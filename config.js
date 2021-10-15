@@ -18,7 +18,7 @@ module.exports = {
     VERSION: 'V 1.0.0 PEARL BOT 🍁',
     ZRUN: "zenzapi",
     CHANNEL: 'https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML',
-    SESSION: process.env.TREX_SESSION === undefined ? '' : process.env.TREX_SESSION,
+    SESSION: process.env.ALPHA_SESSION === undefined ? '' : process.env.ALPHA_SESSION,
     PASS:process.env.PASSWORD === undefined ? 'hiruwa' : process.env.PASSWORD,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     ANTIWHATS: process.env.ANTI_WHATS === undefined ? 'false' : process.env.ANTI_WHATS,
