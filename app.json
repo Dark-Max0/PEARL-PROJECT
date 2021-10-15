@@ -8,7 +8,7 @@
     "success_url": "https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML",
     "stack": "container",
     "env": {
-        "TREX_SESSION": {
+        "ALPHA_SESSION": {
             "description": "Paste your QR session that you got from https://replit.com/@TRexWa/T-REX-QR-SESSION .",
             "required": true
         },
