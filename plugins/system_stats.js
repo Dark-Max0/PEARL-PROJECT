@@ -32,7 +32,7 @@ const btn = {
             
             var image = await axios.get ('https://telegra.ph/file/c4f4d62acfce433ed3f5e.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now.  🔰```\n\n 🔰 My name : ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱\n\n 🔰 Developer: Achiya\n\n 🔰Thank You For Using ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now.  🔰```\n\n 🔰 My name : ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 V 2.0.0 private ❱\n\n 🔰 Developer: Achiya\n\n 🔰Thank You For Using ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱"})
             
      //   await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
@@ -79,7 +79,7 @@ const btn = {
         await message.client.sendMessage(message.jid, 
                 `*❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱*\n\n` + 
                 '```Installed version :```\n' +
-                ' V 2.0.0 Public'+
+                ' V 2.0.0 private'+
                 `\n\n🔰 Check github for bot: https://github.com/Dark-Knight-Hiruwa/T-REX`
            , MessageType.text);
             
@@ -106,7 +106,7 @@ const btn = {
             
             var image = await axios.get ('https://telegra.ph/file/c4f4d62acfce433ed3f5e.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🔰```\n\n🔰 My name : ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱\n\n🔰 Developer: HIRUWA\n\n🔰Thank You For Using ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🔰```\n\n🔰 My name : ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 V 2.0.0 - Public ❱\n\n🔰 Developer: HIRUWA\n\n🔰Thank You For Using ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱"})
             
        // await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
