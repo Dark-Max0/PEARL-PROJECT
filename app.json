@@ -1,15 +1,15 @@
 {
-    "name": "T-Rex V 3.0.0",
-    "description": "❰🍁🔱  T Rex BOT  🔱🍁❱ is a chat bot for WhatsApp. Makes it easy and fun to use Whatsapp.",
-    "logo": "https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg",
-    "keywords": ["whatsapp", "userbot", "bot", "api", "aii", "T-Rex"],
-    "repository": "https://cutt.ly/www-t-rex-official-com",
-    "website":   "https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML",
-    "success_url": "https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML",
+    "name": " 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 V 2.0.0",
+    "description": " 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 is a chat bot for WhatsApp. Makes it easy and fun to use Whatsapp.",
+    "logo": "https://telegra.ph/file/c4f4d62acfce433ed3f5e.jpg",
+    "keywords": ["whatsapp", "userbot", "bot", "api", "aii", "🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰"],
+    "repository": "https://ct-official-web.yolasite.com",
+    "website":   "https://chat.whatsapp.com/HnRnoj6HBrK32LW0EG3JxE",
+    "success_url": "https://t.me/Alphabot123",
     "stack": "container",
     "env": {
         "ALPHA_SESSION": {
-            "description": "Paste your QR session that you got from https://replit.com/@TRexWa/T-REX-QR-SESSION .",
+            "description": "Type here yours 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 Session (after get scanning QR)  QR කේතය scan කර ලබාගත් අදාල කේතය මෙහි යොදන්න.",
             "required": true
         },
        
@@ -22,103 +22,103 @@
             "value":"false"
         },
         "LANGUAGE": {
-            "description": "Enter your language. To enable Sinhala, type SI. or to enable English, type EN.",
+            "description": "Enter your language. To enable Sinhala, type SI. or to enable English, type EN,ඔබේ භාෂාව ඇතුළත් කරන්න. සිංහල සක්‍රීය කිරීම සඳහා SI ටයිප් කරන්න. නැතහොත් ඉංග්‍රීසි සක්‍රීය කිරීමට EN ටයිප් කරන්න.",
             "required": true,
             "value": "si"
         },
         "WELCOME": {
-            "description": "Welcome message type pp or gif",
+            "description": "Welcome message type pp or gif,පිළිගැනීමේ පණිවිඩය pp හෝ gif ටයිප් කරන්න",
             "required": true,
             "value": "pp"
         },
         "AUTO_BIO": {
-            "description": "Setup AUTO BIO feature. Adding a live clock for your WhatsApp about.",
+            "description": "Set true for auto in biography.ඔබගේ විස්තරය කාලීනව වෙනස් වීමට (අවශ්‍ය නැතිනම් වෙනස් නොකරන්න )",
             "required": true,
             "value": "false"
         },
         "PASSWORD": {
-            "description": "ENTER BOT DEPLOY PASSWORD 😒",
+            "description": "ENTER BOT DEPLOY PASSWORD,බොට් සදහා පාස්වර්ඩ් එකක් ඇත එක ලබා දෙන්න.",
             "required": true
             
         },
         
         "HANDLERS": {
-            "description": "Do not change ❌ .  bot prefix to use commands.",
+            "description": "Donot change!.වෙනස් නොකරන්න!!!",
             "required": true,
             "value": "^[.!#$,*@]"
         },
         "ANTIBAD": {
-            "description": "Set True , Activate Anti-Bad word for your groups.",
+            "description": "Set True , Activate Anti-Bad word for your groups,ඔබේ කණ්ඩායම් සඳහා නරක විරෝධී වචනය බාවිතාකරන්න පන්නා දැමිනට ක්‍රියාත්මක කරන්න.",
             "required": true,
             "value": "false"
         },
         "ANTI_LINK": {
-            "description": "Set True , Activate anti link for your groups.",
+            "description": "⚠️Link Blocking System.⚠️ලින්ක් දමන්නන් සමුහයෙන් ඉවත් කිරීමට",
             "required": true,
             "value": "false"
         },
         "GROUP_RULES": {
-            "description": "Set your group Rules.",
+            "description": "Set your group Rules,ඔබේ කණ්ඩායම් නීති සකසන්න.",
             "required": true,
             "value": "No Rules"
         },
         "GROUP_NAME_1": {
-            "description": "Set You 1 Group Name.",
+            "description": "Set You 1 Group Name,ඔබට 1 කණ්ඩායම් නම සකසන්න.",
             "required": false,
             "value": "default"
         },
         "GROUP_LINK_1": {
-            "description": "Set You 1 Group link.",
+            "description": "Set You 1 Group link,ඔබට 1 කණ්ඩායම් සම්බන්ධකය සකසන්න.",
             "required": false,
             "value": "default"
         },
         "WARN_MSG_1": {
-            "description": "Set You 1 Group warn.",
+            "description": "Set You 1 Group warn,ඔබට 4 කණ්ඩායම අනතුරු ඇඟවීම සකසන්න.",
             "required": false,
             "value": "default"
         },
         "GROUP_NAME_2": {
-            "description": "Set You 2 Group Name.",
+            "description": "Set You 2 Group Name,ඔබට 2 කණ්ඩායම් නම සකසන්න.",
             "required": false,
             "value": "default"
         },
         "GROUP_LINK_2": {
-            "description": "Set You 2 Group link.",
+            "description": "Set You 2 Group link,ඔබට 2 කණ්ඩායම් සම්බන්ධකය සකසන්න.",
             "required": false,
             "value": "default"
         },
         "WARN_MSG_2": {
-            "description": "Set You 2 Group warn.",
+            "description": "Set You 2 Group warn,ඔබට 2 කණ්ඩායම අනතුරු ඇඟවීම සකසන්න.",
             "required": false,
             "value": "default"
         },
         "GROUP_NAME_3": {
-            "description": "Set You 3 Group Name.",
+            "description": "Set You 3 Group Name,ඔබට 3 කණ්ඩායම් නම සකසන්න.",
             "required": false,
             "value": "default"
         },
         "GROUP_LINK_3": {
-            "description": "Set You 3 Group link.",
+            "description": "Set You 3 Group link,ඔබට 3 කණ්ඩායම් සම්බන්ධකය සකසන්න.",
             "required": false,
             "value": "default"
         },
         "WARN_MSG_3": {
-            "description": "Set You 3 Group warn.",
+            "description": "Set You 3 Group warn,ඔබට 3 කණ්ඩායම අනතුරු ඇඟවීම සකසන්න.",
             "required": false,
             "value": "default"
         },
         "GROUP_NAME_4": {
-            "description": "Set You 4 Group Name.",
+            "description": "Set You 4 Group Name,ඔබට 4 කණ්ඩායම් නම සකසන්න.",
             "required": false,
             "value": "default"
         },
         "GROUP_LINK_4": {
-            "description": "Set You 4 Group link.",
+            "description": "Set You 4 Group link,ඔබට 4 කණ්ඩායම් සම්බන්ධකය සකසන්න.",
             "required": false,
             "value": "default"
         },
         "WARN_MSG_4": {
-            "description": "Set You 4 Group warn.",
+            "description": "Set You 4 Group warn,ඔබට 4 කණ්ඩායම අනතුරු ඇඟවීම සකසන්න.",
             "required": false,
             "value": "default"
         },
@@ -129,82 +129,82 @@
             "value": "true"
         },
         "HEROKU": {
-            "description": "Heroku",
+            "description": "DONOT CHANGE; වෙනස් කිරීමෙන් වලකින්න",
             "required": true,
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "https://dashboard.heroku.com/account Click this link. Scroll down for the API key. Then click the Reveal button. Copy the API key and paste the API Key empty box below.",
+            "description": "https://dashboard.heroku.com/account Click this link. Scroll down for the API key. Then click the Reveal button. Copy the API key and paste the API Key empty box below,https://dashboard.heroku.com/account මෙම සම්බන්ධකය ක්ලික් කරන්න. ඒපීඅයි යතුර සඳහා පහළට අනුචලනය කරන්න. ඉන්පසු හෙළිදරව් බොත්තම ක්ලික් කරන්න. ඒපීඅයි යතුර පිටපත් කර ඒපීඅයි යතුර හිස් කොටුව පහතින් අලවන්න.",
             "required": true
         },
         "HEROKU_APP_NAME": {
-            "description": "Use the same App name as first.",
+            "description": "Use the same App name as first,මුලින්ම යෙදුමේ නමම භාවිතා කරන්න.",
             "required": true
         },
         "MUTE_MESSAGE": {
-            "description": "Message received when mute a group. If you do not want to change this message, type default.",
+            "description": "Message received when mute a group. If you do not want to change this message, type default,සමුහ වැසීමේ පණිවිඩයට ඔබට කැමති එකක් එකතු කිරීමට.",
             "required": false,
             "value": "default"
         },
         "BLOCK_CHAT": {
-            "description": "Select the chat where the bot does not work. Ex: 947xxxxxxxx && 947xxxxxxxx හෝ 947xxxxxxxx,947xxxxxxxx",
+            "description": "Select the chat where the bot does not work. Ex: 947xxxxxxxx && 947xxxxxxxx හෝ 947xxxxxxxx,947xxxxxxxx,බොට් වැඩ නොකරන චැට් එක තෝරන්න. උදා: 947xxxxxxxx && 947xxxxxxxx හෝ 947xxxxxxxx, 947xxxxxxxx",
             "required": false,
             "value": "no chats added"
         },
         "UNMUTE_MESSAGE": {
-            "description": "Message received when unmuteing a group.",
+            "description": "Message received when unmuteing a group,සමුහ නැවත විවුර්ත කරීමේ පණිවිඩය ඔබට අවශ්‍ය ලෙස සකසා මෙහි දමන්න.",
             "required": false,
             "value": "default"
         },
         "BLOCK_MESSAGE": {
-            "description": "Modifiable chat block notification. If you do not want to change this message, type default.",
+            "description": "Modifiable chat block notification. If you do not want to change this message, type default,පුද්ගලයෙකු අවහිර කිරීමේ පණිවිඩය.",
             "required": false,
             "value": "default"
         },
         "UNBLOCK_MESSAGE": {
-            "description": "Modifiable chat unblock notification. If you do not want to change this message, type default.",
+            "description": "Modifiable chat unblock notification. If you do not want to change this message, type default,අවහිර කල අයෙකු නැවත කතා කිරීමට අවස්ථාව දීමේ පණිවිඩය.",
             "required": false,
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "The way the bot works. If you use public, everyone can use the bot. If you use private, only you can use your bot.",
+            "description": "🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰  bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. ඔබ සාදන්නේ පුද්ගලික bot එකක් නම් “private” ලෙසත් , පොදු botඑකක් නම් “public” ලෙසත් ලබාදෙන්න",
             "required": true,
             "value": "public"
         },       
         "DEBUG": {
-            "description": "If you do not know this. Give it up.",
+            "description": "NO need to change, වෙනස් කිරීමට අවශ්‍ය නැත.",
             "required": true,
             "value": "false"
         },
        
         "WELCOME_LOGO": {
-            "description": "To change the welcome message video, enter your video link below",
+            "description": "set custom welcom gif past direct lnk of mp4 or gif ⚠️must not bigger than 2MB ( can cange after )/ලබාදී ඇති පිළිගැනීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
             "required": true,
             "value":"https://telegra.ph/file/4ce438f1111969bdd9df1.mp4"
         },
         "BYE_LOGO": {
-            "description": "Below is your video link to change Goodbye message video.",
+            "description": "set custom good bye gif past direct lnk of mp4 or gif ⚠️must not bigger than 2MB ( can cange after )/ලබාදී ඇති සමුදීමේ පණිවිඩයට ඔබට අවශ්‍ය වීඩියෝවක් එක කිරීමට වීඩියෝවක ඩිරෙක් ලින්ක් එකක් මෙහි යොදන්න ⚠️2MB වලට අඩු",
             "required": true,
             "value":"https://telegra.ph/file/3a2582be8423628a180c0.gif"
         },
         
         "ALIVE_MESSAGE": {
-            "description": "The message you get when you check whether the bot is online or not. This is not necessarily the case.",
+            "description": "Customizable Alive Message! Use => default, to change back./ALIVE පණිවිඩය ඔබට අවශ්‍ය පරිදි වෙනස් කරගැනීමට",
             "required": false,
-            "value": "default"
+            "value": " 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 type .alive"
         },
         "BAN_MESSAGE": {
-            "description": "The message you get when someone commands you as .ban and removes it. If you do not want to change this message, type default.",
+            "description": "Customizable Ban Message! Use => default, to change back.යමෙකු සමුහයෙන් ඉවත් කරීමේ පණිවිඩය වෙනස් කිරීමට",
             "required": false,
             "value": "default"
         },
         "ADD_MESSAGE": {
-            "description": "If you do not want to change this message, type default.",
+            "description": "Customizable Add Message! Use => default, to change back.ඔබ විසින් යමෙකුව සමුහයට එකතුකිරිමේදී ලැබෙන පණිවිඩය.",
             "required": false,
             "value": "default"
         },
         "KICKME_MESSAGE": {
-            "description": "If you do not want to change this message, type default.",
+            "description": "Customizable Kickme Message! Use => default, to change back.ඔබ සමුහයෙන් ඉවත් වීමේදී තබා එන අවසන් පණිවිඩය.",
             "required": false,
             "value": "default"
         },
