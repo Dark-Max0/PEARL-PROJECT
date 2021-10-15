@@ -1588,9 +1588,9 @@ Trex.addrex({pattern: 'unmute ?(.*)', fromMe: true,  deleteCommand: false,  only
 
 Trex.addrex({pattern: 'clear', fromMe: true,  deleteCommand: false,  desc: Lang.END, dontAddCommandList: true}, (async (message, match) => {
 
-    await message.sendMessage('```🍁 ➢ Chat clearing...```');
+    await message.sendMessage('```♻️ ➢ Chat clearing...```');
     await message.client.modifyChat (message.jid, ChatModification.delete);
-    await message.sendMessage('```🍁 ➢ All Chat cleared```');
+    await message.sendMessage('```🗑️ ➢ All Chat cleared```');
 }));
 
 Trex.addrex({pattern: 'gname ?(.*)', onlyGroup: true, fromMe: true,  deleteCommand: false,  dontAddCommandList: true}, (async (message, match) => {
