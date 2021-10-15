@@ -83,7 +83,7 @@ async function Trex () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('▷ Login information updated!👿')
+            chalk.blueBright.italic('▷ Login information updated!🇱🇰')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -95,37 +95,37 @@ async function Trex () {
     })    
 
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('👿 T-')}${chalk.blue.bold('REX')}
+        console.log(`${chalk.green.bold('')}${chalk.blue.bold('❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
+${chalk.blue.italic('🇱🇰 Connecting to WhatsApp...▶')}`);
     });
     
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('👿  Login successful!▶')
+            chalk.green.bold('🇱🇰  Login successful!▶')
         );
         
         console.log(
-            chalk.green.bold(' PEARL USERS ONLY 🔰')
+            chalk.green.bold(' ALPHA USERS ONLY 🔰')
         );
 
         console.log(
-            chalk.blueBright.italic('🚀Installing external plugins...▶')
+            chalk.blueBright.italic('♻️Installing external plugins...▶')
         );
         
         // ==================== Password Checking ====================
         console.log(
-            chalk.blueBright.italic('🔰 PASSWORD CHECKING 🔰')
+            chalk.blueBright.italic('🔰 PASSWORD CHECKING ♻️')
         );
         if (config.PASS == pd) {
         
         console.log(
-            chalk.green.bold('🔰 PASSWORD CORRECT 🔰')
+            chalk.green.bold('🔰 PASSWORD CORRECT ✅')
         );
             
         console.log(
-            chalk.red.bold('🔰 PEARL TEAM USER CONFIRMED 🔰')
+            chalk.red.bold('🔰 ALPHA USER CONFIRMED ✅')
         );
             
          }
@@ -177,17 +177,17 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         });
 // ════════════════════PLUGGINS SUCCESS🔰🔰🔰
         console.log(
-            chalk.green.bold('👿 T-REX V 3.0.0 PUBLIC WORKING!▷')
+            chalk.green.bold('✅ ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0 PUBLIC WORKING!▷')
        );
         
          if (config.LANG == 'EN') {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰▷ Hey..!!  ${conn.user.name}! \n\n*👿 Welcome To PEARL OFFICIAL BOT 🔰🔰`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰▷ Hey..!!  ${conn.user.name}! \n\n*🇱🇰 Welcome To PEARL OFFICIAL BOT 🔰🔰`});
              
          } else if (config.LANG == 'SI') {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰🚀Hey..!!  ${conn.user.name}! \n\n*👿 සාදරයෙන් PEARL OFFICIAL BOT වෙත පිලිගන්නවා 🔰🔰`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰🚀Hey..!!  ${conn.user.name}! \n\n*🇱🇰 සාදරයෙන් PEARL OFFICIAL BOT වෙත පිලිගන්නවා 🔰🔰`});
              
          } else {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰🚀Hey..!!  ${conn.user.name}! \n\n*👿 Welcome To PEARL OFFICIAL BOT 🔰🔰`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰🚀Hey..!!  ${conn.user.name}! \n\n*🇱🇰 Welcome To PEARL OFFICIAL BOT 🔰🔰`});
         }
      });
     
@@ -198,126 +198,126 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Europe/Istanbul' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('994')) { 
                 var ov_time = new Date().toLocaleString('AZ', { timeZone: 'Asia/Baku' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('94')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Asia/Colombo' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('351')) { 
                 var ov_time = new Date().toLocaleString('PT', { timeZone: 'Europe/Lisbon' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('75')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('RU', { timeZone: 'Europe/Kaliningrad' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('91')) { 
                 var ov_time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('62')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('ID', { timeZone: 'Asia/Jakarta' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('49')) { 
                 var ov_time = new Date().toLocaleString('DE', { timeZone: 'Europe/Berlin' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('61')) {  
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('AU', { timeZone: 'Australia/Lord_Howe' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('55')) { 
                 var ov_time = new Date().toLocaleString('BR', { timeZone: 'America/Noronha' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('33')) {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('FR', { timeZone: 'Europe/Paris' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('34')) { 
                 var ov_time = new Date().toLocaleString('ES', { timeZone: 'Europe/Madrid' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('44')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('GB', { timeZone: 'Europe/London' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('39')) {  
                 var ov_time = new Date().toLocaleString('IT', { timeZone: 'Europe/Rome' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('KZ', { timeZone: 'Asia/Almaty' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('998')) {  
                 var ov_time = new Date().toLocaleString('UZ', { timeZone: 'Asia/Samarkand' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('993')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('TM', { timeZone: 'Asia/Ashgabat' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
             else {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('EN', { timeZone: 'America/New_York' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 👿 T-REX BOT 👿'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0'
                 await conn.setStatus(biography)
             }
         }
@@ -476,13 +476,13 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'EN') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: '*👿 PEARL BOT 👿*  WORKING AS '+config.WORKTYPE+'!!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👿Support 01▷ https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: '*❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0*  WORKING AS '+config.WORKTYPE+'!!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_🔰Support 01▷ https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML\n\n*Error:* ```' + error + '```\n\n' });
                                 
                             } else if (config.LANG == 'SI') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: '*👿 PEARL BOT 👿*  '+config.WORKTYPE+' ලෙස ක්‍රියා කරයි!!\n\n▷ _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\nf_👿Support 01▷ https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML\n\n*දෝෂය:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: '*❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0*  '+config.WORKTYPE+' ලෙස ක්‍රියා කරයි!!\n\n▷ _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\nf_🔰Support 01▷ https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML\n\n*දෝෂය:* ```' + error + '```\n\n' });
                                 
                             } else {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: '*👿 PEARL BOT 👿*  WORKING AS '+config.WORKTYPE+'!!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👿Support 01▷ https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: '*❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ V 2.0.0*  WORKING AS '+config.WORKTYPE+'!!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_🔰Support 01▷ https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML\n\n*Error:* ```' + error + '```\n\n' });
                             }
                         }
                     }
