@@ -21,6 +21,7 @@ module.exports = {
     SESSION: process.env.TREX_SESSION === undefined ? '' : process.env.TREX_SESSION,
     PASS:process.env.PASSWORD === undefined ? 'hiruwa' : process.env.PASSWORD,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
+    ANTIWHATS: process.env.ANTI_WHATS === undefined ? 'false' : process.env.ANTI_WHATS,
     TIME: process.env.TIME_ZONE === undefined ? 'Asia/Colombo' : process.env.TIME_ZONE,
     BTN: process.env.BUTTON_CMD === undefined ? 'btn' : process.env.BUTTON_CMD,
     AUTOBIO: process.env.AUTO_BIO === undefined ? 'false' : process.env.AUTO_BIO,
