@@ -79,7 +79,7 @@ const btn = {
         await message.client.sendMessage(message.jid, 
                 `*❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱*\n\n` + 
                 '```Installed version :```\n' +
-                ' V 2.0.0 private'+
+                ' V 2.0.0 public'+
                 `\n\n🔰 Check github for bot: https://github.com/Dark-Knight-Hiruwa/T-REX`
            , MessageType.text);
             
