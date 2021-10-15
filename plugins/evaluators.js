@@ -112,8 +112,8 @@ if (Config.LANG == 'SI') ldc = '_❌ වට්සැප් ලින්ක් �
 if (Config.LANG == 'EN') ldc = '_❌ WHATSAPP Link Detected!_'
 Trex.addrex({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (antilink_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
-        let regex1 = new RegExp('http://')
-        let regex2 = new RegExp('https://')
+        let regex1 = new RegExp('https://chat.whatsapp.com/')
+        let regex2 = new RegExp('https://chat.whatsapp.com/')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
