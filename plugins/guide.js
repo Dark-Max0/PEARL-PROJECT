@@ -54,11 +54,11 @@ Trex.addrex({pattern: 'guide', fromMe: false}, (async (message, match) => {
 `, rowId:"rowid20"}
        ]
        
-       const sections = [{title: "🍁 GUIDE LIST 🍁", rows: rows}]
+       const sections = [{title: "Subscribe දන්සැළේ වැඩේ වෙන විදිහ හරියටම දැනගමු.", rows: rows}]
        
        const button = {
-        buttonText: 'Click Me▷',
-        description: "🍁 GUIDE LIST 🍁",
+        buttonText: 'Click Me ▷',
+        description: "Subscribe දන්සැළේ වැඩේ වෙන විදිහ හරියටම දැනගමු.",
         sections: sections,
         listType: 1
        }
