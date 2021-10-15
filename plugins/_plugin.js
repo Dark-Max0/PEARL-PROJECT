@@ -54,7 +54,7 @@ Trex.addrex({pattern: 'plug ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, warn:
 
         await Db.installPlugin(url, plugin_name);
         await message.client.sendMessage(message.jid, Lang.INSTALLED, MessageType.text);
-        if (!match[1].includes('Dark-Knight-Hiruwa')) {
+        if (!match[1].includes('CT OFFICIAL-AchiyaCT-Achiya')) {
             await new Promise(r => setTimeout(r, 400));
             await message.client.sendMessage(message.jid, Lang.UNOFF, MessageType.text);
         }
@@ -70,7 +70,7 @@ Trex.addrex({pattern: 'myplugin', fromMe: true, desc: Lang.PLUGIN_DESC }, (async
         plugins.map(
             (plugin) => {
                 let vf = plugin.dataValues.url.includes('Dark-Knight-Hiruwa') ? msg : inmsg
-                mesaj += '```' + plugin.dataValues.name + '```: ' + '👿  \n' + vf + '\n\n';
+                mesaj += '```' + plugin.dataValues.name + '```: ' + '🔰  \n' + vf + '\n\n';
             }
         );
         return await message.client.sendMessage(message.jid, mesaj, MessageType.text);
