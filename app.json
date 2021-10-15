@@ -17,7 +17,10 @@
             "description": "YOUR COUNTRY TIME ZONE ලන්කාවෙ අය තියන විදිහට තියන්න..",
             "value":"Asia/Colombo"
         },
-        
+        "ANTI_WHATS": {
+            "description": "වට්සැප් ලින්ක් දමන්නන් පන්නා දැමීමට.true ලෙස තබන්න..",
+            "value":"false"
+        },
         "LANGUAGE": {
             "description": "Enter your language. To enable Sinhala, type SI. or to enable English, type EN.",
             "required": true,
