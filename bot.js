@@ -17,7 +17,7 @@ const axios = require('axios');
 const got = require('got');
 const pd = "ctalpha"
 
-// ════════════════════SQL🍁🍁
+// ════════════════════SQL🔰🔰
 const TrexDB = config.DATABASE.define('Trex', {
     info: {
       type: DataTypes.STRING,
@@ -66,7 +66,7 @@ async function Trex () {
         }
     });
     
-// ════════════════════WA CONNECTION🍁🍁🍁
+// ════════════════════WA CONNECTION🔰🔰🔰
     const conn = new WAConnection();
     conn.version = [2, 2123, 8];
     const Session = new StringSession();
@@ -107,7 +107,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         );
         
         console.log(
-            chalk.green.bold(' PEARL USERS ONLY 🍁')
+            chalk.green.bold(' PEARL USERS ONLY 🔰')
         );
 
         console.log(
@@ -116,16 +116,16 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         
         // ==================== Password Checking ====================
         console.log(
-            chalk.blueBright.italic('🍁 PASSWORD CHECKING 🍁')
+            chalk.blueBright.italic('🔰 PASSWORD CHECKING 🔰')
         );
         if (config.PASS == pd) {
         
         console.log(
-            chalk.green.bold('🍁 PASSWORD CORRECT 🍁')
+            chalk.green.bold('🔰 PASSWORD CORRECT 🔰')
         );
             
         console.log(
-            chalk.red.bold('🍁 PEARL TEAM USER CONFIRMED 🍁')
+            chalk.red.bold('🔰 PEARL TEAM USER CONFIRMED 🔰')
         );
             
          }
@@ -147,7 +147,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
          console.log(
             chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
          console.log(
-            chalk.red.bold('🍁 LOGIN FAILED 🍁'));
+            chalk.red.bold('🔰 LOGIN FAILED 🔰'));
          throw new Error("Wrong password 😒 !!");
          
          return;
@@ -175,23 +175,23 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
                 require('./plugins/' + plugin);
             }
         });
-// ════════════════════PLUGGINS SUCCESS🍁🍁🍁
+// ════════════════════PLUGGINS SUCCESS🔰🔰🔰
         console.log(
             chalk.green.bold('👿 T-REX V 3.0.0 PUBLIC WORKING!▷')
        );
         
          if (config.LANG == 'EN') {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🍁▷ Hey..!!  ${conn.user.name}! \n\n*👿 Welcome To PEARL OFFICIAL BOT 🍁🍁`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰▷ Hey..!!  ${conn.user.name}! \n\n*👿 Welcome To PEARL OFFICIAL BOT 🔰🔰`});
              
          } else if (config.LANG == 'SI') {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🍁🚀Hey..!!  ${conn.user.name}! \n\n*👿 සාදරයෙන් PEARL OFFICIAL BOT වෙත පිලිගන්නවා 🍁🍁`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰🚀Hey..!!  ${conn.user.name}! \n\n*👿 සාදරයෙන් PEARL OFFICIAL BOT වෙත පිලිගන්නවා 🔰🔰`});
              
          } else {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🍁🚀Hey..!!  ${conn.user.name}! \n\n*👿 Welcome To PEARL OFFICIAL BOT 🍁🍁`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰🚀Hey..!!  ${conn.user.name}! \n\n*👿 Welcome To PEARL OFFICIAL BOT 🔰🔰`});
         }
      });
     
-// ════════════════════LOGIN MESSAGE🍁🍁
+// ════════════════════LOGIN MESSAGE🔰🔰
     setInterval(async () => { 
         if (config.AUTOBIO == 'true') {
             if (conn.user.jid.startsWith('90')) { 
@@ -353,7 +353,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
             }
         }
     }, 50000);
- // ════════════════════ANNOUNCEMENT🍁🍁🍁
+ // ════════════════════ANNOUNCEMENT🔰🔰🔰
     conn.on('chat-update', async m => {
         if (!m.hasNewMessage) return;
         if (!m.messages && !m.count) return;
@@ -363,7 +363,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
         if (config.NO_ONLINE) {
             await conn.updatePresence(msg.key.remoteJid, Presence.unavailable);
         }
-// ════════════════════NO ONLINE🍁🍁
+// ════════════════════NO ONLINE🔰🔰
 
         if (config.WELCOME == 'pp' || config.WELCOME == 'Pp' || config.WELCOME == 'PP' || config.WELCOME == 'pP' ) {
             if (msg.messageStubType === 32 || msg.messageStubType === 28) {
@@ -450,7 +450,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
-// ════════════════════SUDO.🍁🍁
+// ════════════════════SUDO.🔰🔰
                     if (sendMsg) {
                         if (config.SEND_READ && command.on === undefined) {
                             await conn.chatRead(msg.key.remoteJid);
@@ -490,7 +490,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
             }
         )
     });
- // ════════════════════ERRROR MESSAGER🍁🍁🍁
+ // ════════════════════ERRROR MESSAGER🔰🔰🔰
     try {
         await conn.connect();
     } catch {
