@@ -21,14 +21,14 @@ ${chalk.blue.bold('ℹ️  Connecting T-REX... Please wait.')}`);
   conn.on('open', async () => {
     console.log(
       chalk.green.bold('T-REX QR Code: '),
-      'TREX;;;' +
+      'ALPHA;;;' +
       Buffer.from(JSON.stringify(conn.base64EncodedAuthInfo())).toString(
         'base64'
       )
     );
     await conn.sendMessage(
       conn.user.jid,
-      'TREX;;;' +
+      'ALPHA;;;' +
       Buffer.from(JSON.stringify(conn.base64EncodedAuthInfo())).toString(
         'base64'
       ),
