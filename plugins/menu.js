@@ -26,9 +26,7 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
     const rows = [
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ BOT active cmd', description:
  ` ╭────────────────
- │       ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ BOT active cmd
- │        ──────────
- │
+ │     
  │▷ .alpha
  │▷ .alive
  │▷ .admin [ for owner ]
@@ -38,7 +36,6 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
 ` , rowId:"rowid1"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Text To Img cmd', description:
 ` ╭────────────────
- │  ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Text To Img cmd
  │
  │▷ .sticker
  │▷ .sticvid
@@ -56,7 +53,6 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
 `, rowId:"rowid3"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Downloader cmd', description:
  ` ╭────────────────
- │   ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Downloader cmd
  │
  │▷ .video { vid link }
  │▷ .vid2 { vid link }
@@ -76,7 +72,6 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
 `, rowId:"rowid4"},
         {title: ' ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Groups cmd', description:
 ` ╭────────────────
- │     ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Groups cmd 
  │
  │▷ .grp
  │▷ .rules
@@ -105,7 +100,6 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
 `, rowId:"rowid5"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ For owner cmd', description:
 ` ╭────────────────
- │  ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ For owner cmd
  │
  │▷ .name { change name }
  │▷ .pp { cha profilr pic}
@@ -120,7 +114,6 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
 `, rowId:"rowid6"},
         {title: ' ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Fun', description:
 ` ╭────────────────
- │       ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Fun 
  │
  │▷ .gm
  │▷ .agm
@@ -154,8 +147,6 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
     const rows = [
         {title: ' ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ BOT active cmd', description:
  ` ╭────────────────
- │       ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ BOT active cmd
- │        ──────────
  │
  │▷ .alpha
  │▷ .alive
@@ -166,7 +157,6 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
 ` , rowId:"rowid1"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Text To Img cmd', description:
 ` ╭────────────────
- │  ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Text To Img cmd
  │
  │▷ .sticker
  │▷ .sticvid
@@ -184,7 +174,6 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
 `, rowId:"rowid3"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Downloader', description:
  ` ╭────────────────
- │   ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Downloader cmd
  │
  │▷ .video { vid link }
  │▷ .vid2 { vid link }
@@ -203,8 +192,7 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
  ╰────────────────
 `, rowId:"rowid4"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Groups cmd', description:
-` ╭────────────────
- │     ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Groups cmd 
+` ╭──────────────── 
  │
  │▷ .grp
  │▷ .rules
@@ -233,7 +221,6 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
 `, rowId:"rowid5"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ For owner cmd', description:
 ` ╭────────────────
- │  ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ For owner cmd
  │
  │▷ .name { change name }
  │▷ .pp { cha profilr pic}
@@ -247,8 +234,7 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
  ╰────────────────
 `, rowId:"rowid6"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Fun', description:
-` ╭────────────────
- │       ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Fun 
+` ╭──────────────── 
  │
  │▷ .gm
  │▷ .agm
