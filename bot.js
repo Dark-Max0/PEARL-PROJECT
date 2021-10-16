@@ -181,10 +181,10 @@ ${chalk.blue.italic('🇱🇰 Connecting to WhatsApp...▶')}`);
        );
         
          if (config.LANG == 'EN') {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰▷ Hey..!!  ${conn.user.name}! \n\n*🇱🇰 Welcome To PEARL OFFICIAL BOT 🔰🔰`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰▷ Hey..!!  ${conn.user.name}\n*🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as change it, use* _.setvar WORK_TYPE:public/private_\n\n*Thanks for using 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 💌*`});
              
          } else if (config.LANG == 'SI') {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰🚀Hey..!!  ${conn.user.name}! \n\n*🇱🇰 සාදරයෙන් PEARL OFFICIAL BOT වෙත පිලිගන්නවා 🔰🔰`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰🚀Hey..!!  ${conn.user.name}! \n\n*🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰*\n\n_මෙය ඔබගේ ලොග් සටහන් අංකය බැවින් මෙහි එන පණිවුඩ සහා අවධානයෙන් සිටින්න._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය නමුත් මෙහි නොකරන්න:)_\n\n*bot වෙනස් කිරීමට* _.setvar WORK_TYPE: private/public_ *ඔබේ විධානය භාවිතා කරන්න.*\n\n*🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 භාවිතා කිරීම ගැන ස්තූතියි තවත් තොරතුරු දැනගැනීමට  අපව ❗️❗️❗️ SUBSCRIBE ❗️❗️❗️කර තබාගන්න  https://www.youtube.com/channel/UCZDW8M8KEBVLHtvbpli9otw 💌*`});
              
          } else {
              await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/YouTubers Family By PEARL 20211014_214216.jpg"), MessageType.image, { caption: `🔰🚀Hey..!!  ${conn.user.name}! \n\n*🇱🇰 Welcome To PEARL OFFICIAL BOT 🔰🔰`});
