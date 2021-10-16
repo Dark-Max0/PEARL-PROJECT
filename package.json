@@ -1,5 +1,5 @@
 {
-  "name": "❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱",
+  "name": "ALPHA",
   "version": "V 2.0.0",
   "description": ".",
   "main": "./PEARL-PROJECT/bot.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dark-Max0/PEARL-PROJECT.git"
+    "url": "git+https://github.com/Dark-Knight-Hiruwa/PEARL-PROJECT.git"
   },
   "keywords": [
     "whatsapp",
