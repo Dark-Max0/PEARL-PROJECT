@@ -25,73 +25,73 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
 
     const rows = [
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ BOT active cmd', description:
- ` ╭────────────────
+`╭────────────────
  │     
- │▷ .alpha
- │▷ .alive
- │▷ .admin [ for owner ]
- │▷ .version
+ │🔰 .alpha
+ │🔰 .alive
+ │🔰 .admin [ for owner ]
+ │🔰 .version
  │
  ╰────────────────
 ` , rowId:"rowid1"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Text To Img cmd', description:
-` ╭────────────────
+`╭────────────────
  │
- │▷ .sticker
- │▷ .sticvid
- │▷ .ffpack
- │▷ .attp { text }
- │▷ .ttp { text }
- │▷ .dttp { text }
- │▷ .trumpsay { text }
- │▷ .changesay { text }
- │▷ .animesay { text }
- │▷ .meme { text }
- │▷ .carbon { text }
+ │🔰 .sticker
+ │🔰 .sticvid
+ │🔰 .ffpack
+ │🔰 .attp { text }
+ │🔰 .ttp { text }
+ │🔰 .dttp { text }
+ │🔰 .trumpsay { text }
+ │🔰 .changesay { text }
+ │🔰 .animesay { text }
+ │🔰 .meme { text }
+ │🔰 .carbon { text }
  │
  ╰────────────────
 `, rowId:"rowid3"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Downloader cmd', description:
- ` ╭────────────────
+`╭────────────────
  │
- │▷ .video { vid link }
- │▷ .vid2 { vid link }
- │▷ .song { song name }
- │▷ .fsong { song name }
- │▷ .play { song name }
- │▷ .img { name }
- │▷ .fb { link }
- │▷ .tiktok { link }
- │▷ .insta { link }
- │▷ .spotify { link }
- │▷ .ss { link }
- │▷ .trt { en si }
- │▷ .short { link }
+ │🔰 .video { vid link }
+ │🔰 .vid2 { vid link }
+ │🔰 .song { song name }
+ │🔰 .fsong { song name }
+ │🔰 .play { song name }
+ │🔰 .img { name }
+ │🔰 .fb { link }
+ │🔰 .tiktok { link }
+ │🔰 .insta { link }
+ │🔰 .spotify { link }
+ │🔰 .ss { link }
+ │🔰 .trt { en si }
+ │🔰 .short { link }
  │
  ╰────────────────
 `, rowId:"rowid4"},
         {title: ' ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Groups cmd', description:
-` ╭────────────────
+`╭────────────────
  │
- │▷ .grp
- │▷ .rules
- │▷ .info
- │▷ .tagadmin
- │▷ .report
- │▷ .gname {change group n}
- │▷ .dis on { disapearing }
- │▷ .dis off { for owner }
- │▷ .warn1 [ for owner ]
- │▷ .warn2 [ for owner ]
- │▷ .warn3 [ for owner ]
- │▷ .warn4 [ for owner ]
- │▷ .tagall  [ for owner ]
- │▷ .ban [ for owner ]
- │▷ .add [ for owner ]
- │▷ .promote [ for owner ]
- │▷ .demote [ for owner ]
- │▷ .invite [ for owner ]
- │▷ .kickme [ for owner ]
+ │🔰 .grp
+ │🔰 .rules
+ │🔰 .info
+ │🔰 .tagadmin
+ │🔰 .report
+ │🔰 .gname {change group n}
+ │🔰 .dis on { disapearing }
+ │🔰 .dis off { for owner }
+ │🔰 .warn1 [ for owner ]
+ │🔰 .warn2 [ for owner ]
+ │🔰 .warn3 [ for owner ]
+ │🔰 .warn4 [ for owner ]
+ │🔰 .tagall  [ for owner ]
+ │🔰 .ban [ for owner ]
+ │🔰 .add [ for owner ]
+ │🔰 .promote [ for owner ]
+ │🔰 .demote [ for owner ]
+ │🔰 .invite [ for owner ]
+ │🔰 .kickme [ for owner ]
  │
  │    use .admin Cmd for
  │      other commands
@@ -99,11 +99,11 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
  ╰────────────────
 `, rowId:"rowid5"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ For owner cmd', description:
-` ╭────────────────
+`╭────────────────
  │
- │▷ .name { change name }
- │▷ .pp { cha profilr pic}
- │▷ .bio { change bio }
+ │🔰 .name { change name }
+ │🔰 .pp { cha profilr pic}
+ │🔰 .bio { change bio }
  │
  │  Now you can change 
  │    your whatsapp 
@@ -113,15 +113,15 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
  ╰────────────────
 `, rowId:"rowid6"},
         {title: ' ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Fun', description:
-` ╭────────────────
+`╭──────────────── 
  │
- │▷ .gm
- │▷ .agm
- │▷ .gn
- │▷ .agn
- │▷ .tts { text }
- │▷ .ping [ for owner ]
- │▷ .antispam { text }
+ │🔰 .gm
+ │🔰 .agm
+ │🔰 .gn
+ │🔰 .agn
+ │🔰 .tts { text }
+ │🔰 .ping [ for owner ]
+ │🔰 .antispam { text }
  │
  ╰────────────────
 `, rowId:"rowid20"}
@@ -146,73 +146,73 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
 
     const rows = [
         {title: ' ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ BOT active cmd', description:
- ` ╭────────────────
- │
- │▷ .alpha
- │▷ .alive
- │▷ .admin [ for owner ]
- │▷ .version
+`╭────────────────
+ │     
+ │🔰 .alpha
+ │🔰 .alive
+ │🔰 .admin [ for owner ]
+ │🔰 .version
  │
  ╰────────────────
 ` , rowId:"rowid1"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Text To Img cmd', description:
-` ╭────────────────
+`╭────────────────
  │
- │▷ .sticker
- │▷ .sticvid
- │▷ .ffpack
- │▷ .attp { text }
- │▷ .ttp { text }
- │▷ .dttp { text }
- │▷ .trumpsay { text }
- │▷ .changesay { text }
- │▷ .animesay { text }
- │▷ .meme { text }
- │▷ .carbon { text }
+ │🔰 .sticker
+ │🔰 .sticvid
+ │🔰 .ffpack
+ │🔰 .attp { text }
+ │🔰 .ttp { text }
+ │🔰 .dttp { text }
+ │🔰 .trumpsay { text }
+ │🔰 .changesay { text }
+ │🔰 .animesay { text }
+ │🔰 .meme { text }
+ │🔰 .carbon { text }
  │
  ╰────────────────
 `, rowId:"rowid3"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Downloader', description:
- ` ╭────────────────
+`╭────────────────
  │
- │▷ .video { vid link }
- │▷ .vid2 { vid link }
- │▷ .song { song name }
- │▷ .fsong { song name }
- │▷ .play { song name }
- │▷ .img { name }
- │▷ .fb { link }
- │▷ .tiktok { link }
- │▷ .insta { link }
- │▷ .spotify { link }
- │▷ .ss { link }
- │▷ .trt { en si }
- │▷ .short { link }
+ │🔰 .video { vid link }
+ │🔰 .vid2 { vid link }
+ │🔰 .song { song name }
+ │🔰 .fsong { song name }
+ │🔰 .play { song name }
+ │🔰 .img { name }
+ │🔰 .fb { link }
+ │🔰 .tiktok { link }
+ │🔰 .insta { link }
+ │🔰 .spotify { link }
+ │🔰 .ss { link }
+ │🔰 .trt { en si }
+ │🔰 .short { link }
  │
  ╰────────────────
 `, rowId:"rowid4"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Groups cmd', description:
-` ╭──────────────── 
+`╭────────────────
  │
- │▷ .grp
- │▷ .rules
- │▷ .info
- │▷ .tagadmin
- │▷ .report
- │▷ .gname {change group n}
- │▷ .dis on { disapearing }
- │▷ .dis off { for owner }
- │▷ .warn1 [ for owner ]
- │▷ .warn2 [ for owner ]
- │▷ .warn3 [ for owner ]
- │▷ .warn4 [ for owner ]
- │▷ .tagall  [ for owner ]
- │▷ .ban [ for owner ]
- │▷ .add [ for owner ]
- │▷ .promote [ for owner ]
- │▷ .demote [ for owner ]
- │▷ .invite [ for owner ]
- │▷ .kickme [ for owner ]
+ │🔰 .grp
+ │🔰 .rules
+ │🔰 .info
+ │🔰 .tagadmin
+ │🔰 .report
+ │🔰 .gname {change group n}
+ │🔰 .dis on { disapearing }
+ │🔰 .dis off { for owner }
+ │🔰 .warn1 [ for owner ]
+ │🔰 .warn2 [ for owner ]
+ │🔰 .warn3 [ for owner ]
+ │🔰 .warn4 [ for owner ]
+ │🔰 .tagall  [ for owner ]
+ │🔰 .ban [ for owner ]
+ │🔰 .add [ for owner ]
+ │🔰 .promote [ for owner ]
+ │🔰 .demote [ for owner ]
+ │🔰 .invite [ for owner ]
+ │🔰 .kickme [ for owner ]
  │
  │    use .admin Cmd for
  │      other commands
@@ -220,11 +220,11 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
  ╰────────────────
 `, rowId:"rowid5"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ For owner cmd', description:
-` ╭────────────────
+`╭────────────────
  │
- │▷ .name { change name }
- │▷ .pp { cha profilr pic}
- │▷ .bio { change bio }
+ │🔰 .name { change name }
+ │🔰 .pp { cha profilr pic}
+ │🔰 .bio { change bio }
  │
  │  Now you can change 
  │    your whatsapp 
@@ -234,15 +234,15 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
  ╰────────────────
 `, rowId:"rowid6"},
         {title: '❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Fun', description:
-` ╭──────────────── 
+`╭──────────────── 
  │
- │▷ .gm
- │▷ .agm
- │▷ .gn
- │▷ .agn
- │▷ .tts { text }
- │▷ .ping [ for owner ]
- │▷ .antispam { text }
+ │🔰 .gm
+ │🔰 .agm
+ │🔰 .gn
+ │🔰 .agn
+ │🔰 .tts { text }
+ │🔰 .ping [ for owner ]
+ │🔰 .antispam { text }
  │
  ╰────────────────
 `, rowId:"rowid20"}
@@ -251,7 +251,7 @@ Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
        const sections = [{title: "❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Menu", rows: rows}]
 
        const button = {
-        buttonText: 'Click Me ▷',
+        buttonText: 'Click Me 🔰',
         description: "❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ Menu",
         sections: sections,
         listType: 1
