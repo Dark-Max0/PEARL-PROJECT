@@ -7,7 +7,7 @@ const Ln = "  *SEND GN GM Wish With Image* "
 
  if (Config.WORKTYPE == 'public') {
   
-  Trex.addrex({ pattern: 'gm', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  Trex.addrex({ pattern: 'agm', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -17,7 +17,7 @@ const Ln = "  *SEND GN GM Wish With Image* "
 
     }));
   
-  Trex.addrex({ pattern: 'gn', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  Trex.addrex({ pattern: 'agn', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -27,7 +27,7 @@ const Ln = "  *SEND GN GM Wish With Image* "
 
     }));
  
-  Trex.addrex({ pattern: 'gn', fromMe: true, dontAddCommandList: false }, (async (message, match) => {
+  Trex.addrex({ pattern: 'agn', fromMe: true, dontAddCommandList: false }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(ll);
 
@@ -37,7 +37,7 @@ const Ln = "  *SEND GN GM Wish With Image* "
     
     }));
  
- Trex.addrex({ pattern: 'gm', fromMe: true, dontAddCommandList: false }, (async (message, match) => {
+ Trex.addrex({ pattern: 'agm', fromMe: true, dontAddCommandList: false }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
@@ -49,7 +49,7 @@ const Ln = "  *SEND GN GM Wish With Image* "
    }
 else if (Config.WORKTYPE == 'private') {
  
- Trex.addrex({ pattern: 'gn', fromMe: true, dontAddCommandList: false }, (async (message, match) => {
+ Trex.addrex({ pattern: 'agn', fromMe: true, dontAddCommandList: false }, (async (message, match) => {
 
         if (match[1] ==='' ) return await message.sendMessage(ll);
 
@@ -63,7 +63,7 @@ else if (Config.WORKTYPE == 'private') {
 
  
 
- Trex.addrex({ pattern: 'gm', fromMe: true, dontAddCommandList: false }, (async (message, match) => {
+ Trex.addrex({ pattern: 'agm', fromMe: true, dontAddCommandList: false }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
