@@ -24,7 +24,7 @@ const Lang = Language.getString('search')
 
 
 if (cn.WORKTYPE == 'private') {
-    Amdi.applyCMD({ pattern: 'mod ?(.*)', fromMe: true, desc: Lang.USAGE,  deleteCommand: false }, async (message, match) => {
+    Amdi.addrex({ pattern: 'mod ?(.*)', fromMe: true, desc: Lang.USAGE,  deleteCommand: false }, async (message, match) => {
 
       if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
       var reply = await message.client.sendMessage(message.jid,Lang.GET_MODD,MessageType.text, {quoted: message.data});
@@ -41,7 +41,7 @@ if (cn.WORKTYPE == 'private') {
       await reply.delete();
     })
 
-    Amdi.applyCMD({ pattern: 'spoti ?(.*)', fromMe: true, desc: Lang.SPO_USAGE,  deleteCommand: false }, async (message, match) => {
+    Amdi.addrex({ pattern: 'spoti ?(.*)', fromMe: true, desc: Lang.SPO_USAGE,  deleteCommand: false }, async (message, match) => {
 
       if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
       var reply = await message.client.sendMessage(message.jid,Lang.GET_MODD,MessageType.text, {quoted: message.data});
@@ -60,7 +60,7 @@ if (cn.WORKTYPE == 'private') {
     })
 }
 else if (cn.WORKTYPE == 'public') {
-  Amdi.applyCMD({ pattern: 'mod ?(.*)', fromMe: false, desc: Lang.USAGE }, async (message, match) => {
+  Amdi.addrex({ pattern: 'mod ?(.*)', fromMe: false, desc: Lang.USAGE }, async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
     var reply = await message.client.sendMessage(message.jid,Lang.GET_MODD,MessageType.text, {quoted: message.data});
@@ -77,7 +77,7 @@ else if (cn.WORKTYPE == 'public') {
     await reply.delete();
   })
 
-  Amdi.applyCMD({ pattern: 'spoti ?(.*)', fromMe: false, desc: Lang.SPO_USAGE,  deleteCommand: false }, async (message, match) => {
+  Amdi.addrex({ pattern: 'spoti ?(.*)', fromMe: false, desc: Lang.SPO_USAGE,  deleteCommand: false }, async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
     var reply = await message.client.sendMessage(message.jid,Lang.GET_MODD,MessageType.text, {quoted: message.data});
