@@ -14,11 +14,11 @@ const got = require('got');
 //Movie-scraper
 
 if (Config.WORKTYPE == 'private') {
-	Amdi.applyCMD({pattern: 'movie', fromMe: false }, (async (message, match) => { 
+	Amdi.addrex({pattern: 'movie', fromMe: false }, (async (message, match) => { 
 		var image = await axios.get ('https://telegra.ph/file/72caf817d141c24cab7cb.jpg', {responseType: 'arraybuffer'}) 
 		await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱"}) 
 	}));
-	Amdi.applyCMD({ pattern: 'movie ?(.*)', fromMe: true,  deleteCommand: false,  desc: "Movies වල විස්තර ලබාදීම." }, (async (message, match) => {
+	Amdi.addrex({ pattern: 'movie ?(.*)', fromMe: true,  deleteCommand: false,  desc: "Movies වල විස්තර ලබාදීම." }, (async (message, match) => {
 		if (match[1] === '') return await message.client.sendMessage(message.jid, '*නමක් ලබාදෙන්න.*', MessageType.text, { quoted: message.data });
 		let url = `http://www.omdbapi.com/?apikey=742b2d09&t=${match[1]}&plot=full`
 		const response = await got(url);
@@ -47,11 +47,11 @@ if (Config.WORKTYPE == 'private') {
 }
 
 else if (Config.WORKTYPE == 'public') {
-	Amdi.applyCMD({pattern: 'movie', fromMe: false }, (async (message, match) => { 
+	Amdi.addrex({pattern: 'movie', fromMe: false }, (async (message, match) => { 
 		var image = await axios.get ('https://telegra.ph/file/72caf817d141c24cab7cb.jpg', {responseType: 'arraybuffer'}) 
 		await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱"}) 
 	}));
-	Amdi.applyCMD({ pattern: 'movie ?(.*)', fromMe: false, desc: "Movies වල විස්තර ලබාදීම." }, (async (message, match) => {
+	Amdi.addrex({ pattern: 'movie ?(.*)', fromMe: false, desc: "Movies වල විස්තර ලබාදීම." }, (async (message, match) => {
 		if (match[1] === '') return await message.client.sendMessage(message.jid, '*නමක් ලබාදෙන්න.*', MessageType.text, { quoted: message.data });
 		let url = `http://www.omdbapi.com/?apikey=742b2d09&t=${match[1]}&plot=full`
 		const response = await got(url);
