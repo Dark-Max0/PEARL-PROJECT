@@ -55,8 +55,8 @@ async function antlch() {
 }
 antlch()
 var ldc = ''
-if (Config.LANG == 'SI') ldc = '_❌ ලින්ක් බොට් අයිතිකරු විසින් තහනම් කර ඇත_'
-if (Config.LANG == 'EN') ldc = '_❌ Link Detected!_'
+if (Config.LANG == 'SI') ldc = '*අවවාදයයි⚠️⚠️⚠️ලින්ක් දැමිම තහනම්⛔* \n\n *සමාවෙන්න ඔබව ඉවත් කෙරෙ👹*'
+if (Config.LANG == 'EN') ldc = '*Warning⚠️⚠️⚠️Linking is prohibited⛔* \n\n *Sorry you have been removed👹*'
 Trex.addrex({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (antilink_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
         let regex1 = new RegExp('http://')
@@ -66,7 +66,7 @@ Trex.addrex({on: 'text', fromMe: false, deleteCommand: false}, (async (message, 
             var im = await checkImAdmin(message)
             if (!im) return;
             if (us) return;
-            await message.client.sendMessage(message.jid,'_❌ Link Detected_', MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'*Warning⚠️⚠️⚠️Linking is prohibited⛔* \n\n *Sorry you have been removed👹*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*3*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*2*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*1*', MessageType.text, {quoted: message.data })
@@ -78,7 +78,7 @@ Trex.addrex({on: 'text', fromMe: false, deleteCommand: false}, (async (message, 
             var im = await checkImAdmin(message)
             if (!im) return;
             if (us) return;
-            await message.client.sendMessage(message.jid,'_❌ Link Detected_', MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'*Warning⚠️⚠️⚠️Linking is prohibited⛔* \n\n *Sorry you have been removed👹*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*3*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*2*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*1*', MessageType.text, {quoted: message.data })
@@ -90,7 +90,7 @@ Trex.addrex({on: 'text', fromMe: false, deleteCommand: false}, (async (message, 
             var im = await checkImAdmin(message)
             if (!im) return;
             if (us) return;
-            await message.client.sendMessage(message.jid,'_❌ Link Detected_', MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'*Warning⚠️⚠️⚠️Linking is prohibited⛔* \n\n *Sorry you have been removed👹*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*3*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*2*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*1*', MessageType.text, {quoted: message.data })
@@ -108,8 +108,8 @@ async function antlch() {
 }
 antlch()
 var ldc = ''
-if (Config.LANG == 'SI') ldc = '_❌ වට්සැප් ලින්ක් බොට් අයිතිකරු විසින් තහනම් කර ඇත_'
-if (Config.LANG == 'EN') ldc = '_❌ WHATSAPP Link Detected!_'
+if (Config.LANG == 'SI') ldc = '*අවවාදයයි⚠️⚠️⚠️වට්සැප් ලින්ක් දැමිම තහනම්⛔* \n\n *සමාවෙන්න ඔබව ඉවත් කෙරෙ👹*'
+if (Config.LANG == 'EN') ldc = '*Warning⚠️⚠️⚠️WHATSAPP Linking is prohibited⛔* \n\n *Sorry you have been removed👹*'
 Trex.addrex({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (antilink_var == 'true' && message.jid !== '905511384572-1616356915@g.us') {
         let regex1 = new RegExp('https://chat.whatsapp.com/')
@@ -119,7 +119,7 @@ Trex.addrex({on: 'text', fromMe: false, deleteCommand: false}, (async (message, 
             var im = await checkImAdmin(message)
             if (!im) return;
             if (us) return;
-            await message.client.sendMessage(message.jid,'_❌ WHATSAPP Link Detected_', MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'*Warning⚠️⚠️⚠️WHATSAPP Linking is prohibited⛔* \n\n *Sorry you have been removed👹*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*3*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*2*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*1*', MessageType.text, {quoted: message.data })
@@ -131,7 +131,7 @@ Trex.addrex({on: 'text', fromMe: false, deleteCommand: false}, (async (message, 
             var im = await checkImAdmin(message)
             if (!im) return;
             if (us) return;
-            await message.client.sendMessage(message.jid,'_❌ WHATSAPP Link Detected_', MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'*Warning⚠️⚠️⚠️WHATSAPP Linking is prohibited⛔* \n\n *Sorry you have been removed👹*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*3*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*2*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*1*', MessageType.text, {quoted: message.data })
@@ -143,7 +143,7 @@ Trex.addrex({on: 'text', fromMe: false, deleteCommand: false}, (async (message, 
             var im = await checkImAdmin(message)
             if (!im) return;
             if (us) return;
-            await message.client.sendMessage(message.jid,'_❌ WHATSAPP Link Detected_', MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'*Warning⚠️⚠️⚠️WHATSAPP Linking is prohibited⛔* \n\n *Sorry you have been removed👹*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*3*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*2*', MessageType.text, {quoted: message.data })
             await message.client.sendMessage(message.jid,'*1*', MessageType.text, {quoted: message.data })
