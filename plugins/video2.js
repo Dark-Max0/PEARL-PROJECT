@@ -39,7 +39,7 @@ if (Config.WORKTYPE == 'private') {
 }
 
 else if (Config.WORKTYPE == 'public') {
-    cobra.applyCMD({ pattern: 'vid2 ?(.*)', fromMe: false, desc: YTV_DESC}, async (message, match) => {
+    cobra.addrex({ pattern: 'vid2 ?(.*)', fromMe: false, desc: YTV_DESC}, async (message, match) => {
 
         const link = match[1]
     
