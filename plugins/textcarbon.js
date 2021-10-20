@@ -16,7 +16,7 @@ const Lang = Language.getString('carbon');
 
 if (Config.WORKTYPE == 'private') {
 
-    Amdi.applyCMD({pattern: 'carbon$', fromMe: true,  deleteCommand: false,  desc: Lang.CARBON_DESC}, (async (message, match) => {
+    Amdi.addrex({pattern: 'carbon$', fromMe: true,  deleteCommand: false,  desc: Lang.CARBON_DESC}, (async (message, match) => {
 
         if (!message.reply_message) return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
 
@@ -83,7 +83,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Amdi.applyCMD({pattern: 'carbon$', fromMe: false, desc: Lang.CARBON_DESC}, (async (message, match) => {
+    Amdi.addrex({pattern: 'carbon$', fromMe: false, desc: Lang.CARBON_DESC}, (async (message, match) => {
 
         if (!message.reply_message) return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
 
