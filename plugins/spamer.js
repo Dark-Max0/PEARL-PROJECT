@@ -1154,7 +1154,7 @@ Amdi.addrex({pattern: 'spam ?(.*)', fromMe: true,  deleteCommand: false,  desc: 
 
 }));
 
-Amdi.applyCMD({pattern: 'killspam', fromMe: true,  deleteCommand: false,  desc: Lang.STOP_SPAMDESC, dontAddCommandList: true}, (async (message, match) => {
+Amdi.addrex({pattern: 'killspam', fromMe: true,  deleteCommand: false,  desc: Lang.STOP_SPAMDESC, dontAddCommandList: true}, (async (message, match) => {
 
     await message.client.sendMessage(message.jid, Lang.STOP_SPAM, MessageType.text);
 
