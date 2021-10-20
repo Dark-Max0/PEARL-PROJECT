@@ -25,7 +25,7 @@ if (Config.WORKTYPE == 'private') {
             
             var image = await axios.get ('https://telegra.ph/file/c4f4d62acfce433ed3f5e.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🔰```\n\n🔰 My name : ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱\n\n🔰 Developer: HIRUWA\n\n🔰Thank You For Using ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🔰```\n\n🔰 My name : ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱\n\n🔰 Developer: Achiya\n\n🔰Thank You For Using ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱"})
 
     }
     else {
@@ -68,7 +68,7 @@ else if (Config.WORKTYPE == 'public') {
             
             var image = await axios.get ('https://telegra.ph/file/c4f4d62acfce433ed3f5e.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🔰 Hey There! I'm Online now. 😘```\n\n🔰 Developer: Hiruwa\n\nThank You For Using ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱" ,quoted: message.data})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🔰 Hey There! I'm Online now. 😘```\n\n🔰 Developer: Achiya\n\nThank You For Using ❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱" ,quoted: message.data})
 
     }
     else {
